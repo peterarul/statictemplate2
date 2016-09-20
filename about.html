@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>GrubSpot</title>
+  <!-- Main Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">GrubSpot</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="#">About</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Login</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">SignUp</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+<div class="col-md-12">
+<h1 class="heading">About Us</h1>  
+<hr>
+
+<div class="col-md-6 about">
+        <h1>Sign Up Now</h1>
+        <form>
+            <span>First name:</span><br><br>
+            <input type="text" name="firstname"><br><br>
+            <span>Last name:</span><br><br>
+            <input type="text" name="lastname"><br><br>
+            <span>Email ID:</span><br><br>
+            <input type="email" name="email"><br><br>
+            <span>Password:</span><br><br>
+            <input type="password" name="pass"><br><br>
+            <span><input type="checkbox" name="agreement" value="agree" >
+            I agree that I've read all the <a href=#>terms and conditions.</a></span><br>
+            <br><button onclick="simpleHello()" type="button">Sign Up</button>
+        </form>
+    </div>
+    
+ <div class="col-md-6 about">
+    <h2 id="description">Get fast, reliable, on-time delievery of food to your doorstep from your favorite restaurant. GrubSpot is an online food-ordering service operating in all accross New England.Our delivery service is way much advanced and easily accessed over internet.Find the best deal near your area by sitting in your home and get delivered by your door step. You name the cusine we will deliver you...   <a href="https://www.gloriafood.com/restaurant-ideas/advantages-of-online-food-ordering">HERE</a> or <a href="http://www.caropinto.com/benefits-of-online-food-delivery-services/">HERE</a></h2>
+    <br>
+   
+    
+</div> 
+ 
+<div class="col-md-12">
+    <hr>
+    <h1>Featured Restaurants</h1>
+    <div class="wrapper">
+  <div class="scrolls">
+       <img class="img_size_feat" src="images/rest1.jpg" />
+       <img class="img_size_feat" src="images/rest2.jpg" />
+       <img class="img_size_feat" src="images/rest3.jpg" />
+       <img class="img_size_feat" src="images/rest4.jpg" />
+       <img class="img_size_feat" src="images/rest5.png" />
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+ 
+ 
+<!-- jQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Main Bootstrap JS -->       
+<script src="js/bootstrap.min.js"></script>        
+<!-- Custom JS -->          
+<script src="js/scripts.js"></script>
+</body>
+</html>
